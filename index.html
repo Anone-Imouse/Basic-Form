@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Experiments</title>
+</head>
+<body>
+<link href="form.css" rel="stylesheet">
+    <h1>Sign in</h1>
+  <form action="submitted.html">
+    <div class="inps">
+    <div class="user">
+    <label for="user">Username</label>
+    <input type="text" id="user" name="user" required minLength="5" maxLength="15" autocomplete="off">
+    </div>
+    <div class="email">
+      <label for="email">Email</label><input type="email" name="email" id="email" required minLength="7" autocomplete="off">
+    </div>
+    <div class="password">
+  <label for="password">Password</label>
+  <input minLength="6" maxLength="15" type="password" name="password" id="password" required autocomplete="off">
+      </div>
+          </div>
+    <div id="submit">
+    <button id="sub" type="submit">Submit!</button>
+    </div>
+  </form>
+</body>
+</html>
